@@ -13,8 +13,8 @@ description = \
     """
 
 requires = [
-    "gcc-6+",
-    "cmake-3+"
+    "cmake-3+",
+    "gcc-6+"
 ]
 
 variants = [
