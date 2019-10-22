@@ -41,8 +41,8 @@ cd ${BUILD_PATH}
 cmake \
     ${BUILD_PATH}/.. \
     -DCMAKE_INSTALL_PREFIX=${INSTALL_PATH} \
-    -DCMAKE_C_FLAGS=-fPIC \
-    -DCMAKE_CXX_FLAGS=-fPIC
+    -DCMAKE_C_FLAGS="-fPIC" \
+    -DCMAKE_CXX_FLAGS="-fPIC"
 
 echo -e "\n"
 echo -e "[CONFIGURE] Finished configuring Blosc-${BLOSC_VERSION}!"
